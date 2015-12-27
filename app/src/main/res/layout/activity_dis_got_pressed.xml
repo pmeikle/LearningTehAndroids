@@ -6,16 +6,9 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Bro, your name goes here!"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/content_main_name"/>
-
-    <Button
+    <TextView
+        android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me please!!!"
-        android:onClick="DisGotPressed"/>
+        android:id="@+id/activity_dis_got_pressed_text"/>
 </LinearLayout>
